@@ -1,0 +1,9 @@
+{
+  "name": "genesis-signaling-server",
+  "version": "1.0.0",
+  "description": "Minimal WebSocket signaling server for Genesis live calling (WebRTC mesh, up to 6 peers per room). Relays join/leave/offer/answer/ICE messages only — no media ever touches this server.",
+  "main": "signaling-server.js",
+  "scripts": { "start": "node signaling-server.js" },
+  "dependencies": { "ws": "^8.18.0" },
+  "engines": { "node": ">=18" }
+}
